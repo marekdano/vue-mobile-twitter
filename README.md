@@ -1,5 +1,7 @@
 # vue-mobile-twitter
 
+Learn and create vue app
+
 ## Project setup
 ```
 yarn install
