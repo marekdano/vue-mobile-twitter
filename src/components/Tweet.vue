@@ -37,7 +37,7 @@
 							</span>
 							<p :class="{'bold': this.tweet.upVoted}">
 								{{new Intl.NumberFormat().format(tweet.likes)}}
-							<p>
+							</p>
 						</a>
 					</div>
 				</nav>
@@ -48,7 +48,7 @@
 
 <script>
 	export default {
-  	name: 'Tweet',
+  	name: 'tweet',
 		props: ['tweet'],
 		computed: {
 			computedDescription() {
