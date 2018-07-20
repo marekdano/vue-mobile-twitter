@@ -261,30 +261,24 @@ export default {
     box-sizing: border-box;
   }
 
-  html, body, #mobile {
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-    background: #e6ecf1;
-    font-family: 'Roboto', sans-serif;
-    color: #13171b;
-  }
-
   #mobile {
     display: flex;
     align-items: center;
     justify-content: center;
+     background: #e6ecf1;
+    font-family: 'Roboto', sans-serif;
+    color: #13171b;
   }
 
   .iphone {
     box-shadow: inset 0 0 3px 0 rgba(0,0,0,0.2), 0 0 0 1px #999, 0 0 30px 0px rgba(0,0,0,0.7);
     border: 5px solid #d9dbdc;
     background: #f8f8f8;
-    padding: 15px;
+    padding: 19px;
     border-radius: 50px;
     height: 780px;
     position: relative;
-    margin: 30px auto;  
+    margin: 0px auto;  
     // Scale so that the iPhone fits in view
     transform: scale(.8);
   }
